@@ -1,28 +1,33 @@
-import Vue from "vue";
-import VueRouter, { RouteConfig } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import Vue from 'vue';
+import VueRouter, { RouteConfig } from 'vue-router';
+
+import HomeView from '../views/HomeView.vue';
+import PlayerSelect from '@/components/PlayerSelect.vue';
+import TeamDeatil from '@/components/Mom_Team_Detail.vue';
 
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
-    path: "/",
-    name: "home",
+    path: '/',
+    name: 'home',
     component: HomeView,
   },
   {
-    path: "/about",
-    name: "about",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () =>
-      import(/* webpackChunkName: "about" */ "../views/AboutView.vue"),
+    path: '/playerselect',
+    name: 'playerselect',
+    component: PlayerSelect,
+  },
+  {
+    path: '/team-detail/:routeName',
+    name: 'TeamDetail',
+    component: TeamDeatil,
+    props: true, // 라우터가 params를 props로 전달
   },
 ];
 
 const router = new VueRouter({
-  mode: "history",
+  mode: 'history',
   base: process.env.BASE_URL,
   routes,
 });
