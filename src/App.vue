@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <Mom_Header />
-    <router-view />
+    <HomeView />
   </div>
 </template>
 

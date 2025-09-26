@@ -19,14 +19,14 @@
   margin-bottom: 30px;
 }
 
-.players {
+.teams {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
 
-.player {
+.team {
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -34,82 +34,25 @@
   background-color: #555;
   border: 3px solid white;
   transition: transform 0.2s ease, background-color 0.4s;
+  padding: 7%;
 }
 
-.player:hover {
+.team:hover {
   background-color: #ff9c00;
   transform: scale(1.2);
   z-index: 1;
 }
 
-.image {
+.LogoImg {
   width: 100%;
-  height: 100%;
+  /* height: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 60px;
+  background-size: 60px; */
 }
 
-/* 팀 로고 클래스 모음 */
-.team-chelsea {
-  background-image: url('../Logo/chelsea-logo-vector.png');
-}
-.team-arsenal {
-  background-image: url('../Logo/arsenal-logo-vector.png');
-}
-.team-bournemouth {
-  background-image: url('../Logo/afc_bournemouth-logo_brandlogos.net_wifjg.png');
-}
-.team-astonVilla {
-  background-image: url('../Logo/aston_villa_fc-logo.png');
-}
-.team-brentford {
-  background-image: url('../Logo/brentford-fc-logo.png');
-}
-.team-brighton {
-  background-image: url('../Logo/brighton-hove-albion-logo.png');
-}
-.team-crystal_palace {
-  background-image: url('../Logo/crystal_palace_fc-logo_brandlogos.net_asddi.png');
-}
-.team-everton {
-  background-image: url('../Logo/everton-fc-logo-preview.png');
-}
-.team-fulham {
-  background-image: url('../Logo/fulham-fc-logo.png');
-}
-.team-ipswichTown {
-  background-image: url('../Logo/ipswich_town_fc-logo_brandlogos.net_n1uch.png');
-}
-.team-leicesterCity {
-  background-image: url('../Logo/leicester_city_fc-logo_brandlogos.net_nrkth.png');
-}
-.team-liverpool {
-  background-image: url('../Logo/liverpool_fc-brandlogo.net.png');
-}
-.team-manCity {
-  background-image: url('../Logo/manchester-city-fc-logo-TitlM7Ic_brandlogos.net.svg');
-}
-.team-manUnited {
-  background-image: url('../Logo/manchester-united-logo-vector.png');
-}
-.team-newcastle {
-  background-image: url('../Logo/newcastle_united_fc-logo_brandlogos.net_ypslm.png');
-}
-.team-nottingham {
-  background-image: url('../Logo/nottingham_forest-logo-brandlogo.net.png');
-}
-.team-southampton {
-  background-image: url('../Logo/southampton-fc-logo.png');
-}
-.team-tottenham {
-  background-image: url('../Logo/tottenham-hotspur-fc-logo.png');
-}
-.team-westham {
-  background-image: url('../Logo/west_ham_united_fc-logo_brandlogos.net_9umrl.png');
-}
-.team-wolves {
-  background-image: url('../Logo/wolverhampton_wanderers_fc-logo-brandlogo.net.png');
+.TeamName {
+  text-align: center;
 }
 
 @media (min-width: 768px) {

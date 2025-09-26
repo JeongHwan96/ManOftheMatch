@@ -1,6 +1,6 @@
 <template>
   <div class="bg">
-    <headerComponents />
+    <Mom_Header />
     <div class="main_text_container">
       <ul class="">
         <div class="">
@@ -32,6 +32,7 @@
           </div>
         </div>
       </ul>
+      <PlayerSelect />
     </div>
   </div>
 </template>

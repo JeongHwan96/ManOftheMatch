@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import { Component } from 'vue-property-decorator';
-import Mom_Header from './components/Mom_Header.vue';
+import HomeView from '../src/views/HomeView.vue';
 
 @Component({
-  components: { Mom_Header },
+  components: { HomeView },
 })
 export default class App extends Vue {}
