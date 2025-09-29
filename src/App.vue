@@ -5,4 +5,6 @@
 </template>
 
 <script lang="ts" src="./App.ts"></script>
-<style></style>
+<style>
+@import '../src/assets/css/App.css';
+</style>
