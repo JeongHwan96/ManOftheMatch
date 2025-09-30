@@ -35,4 +35,8 @@
     padding: 20px;
     box-sizing: border-box;
   }
+
+  .SelectTeamLogoImg {
+    width: 20%;
+  }
 }

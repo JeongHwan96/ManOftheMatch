@@ -17,18 +17,6 @@
   display: flex;
 }
 
-.logoimg {
-  color: transparent;
-  height: 45px;
-  width: 45px;
-  border-radius: 999px;
-}
-
-.logoname {
-  font-size: 1.3rem;
-  text-shadow: 0 1px 2px;
-}
-
 .left,
 .center,
 .right {

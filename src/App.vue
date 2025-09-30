@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HomeView />
+    <HomeView :teams="teams" />
   </div>
 </template>
 

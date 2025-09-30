@@ -8,4 +8,5 @@ export default class ChealseaModal extends Vue {
     this.$emit('SendModalStatus', this.modalCheck);
     console.log('sendStatus', this.modalCheck);
   }
+  @Prop({ default: () => [] }) selectedTeam!: any;
 }

@@ -18,11 +18,12 @@
     </div>
 
     <!-- 선택된 팀 모달 -->
-    <ChealseaModal
+    <ChelseaModal
       v-show="selectedTeam"
       :team="selectedTeam"
       :class="selectedTeam ? ['show', selectedTeam.displayName] : 'none'"
       @SendModalStatus="getModaldata"
+      :selectedTeam="selectedTeam"
     />
   </div>
 </template>

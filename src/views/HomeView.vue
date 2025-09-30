@@ -32,7 +32,7 @@
           </div>
         </div>
       </ul>
-      <PlayerSelect />
+      <PlayerSelect :teams="teams" />
     </div>
   </div>
 </template>
